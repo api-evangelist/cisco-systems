@@ -1,0 +1,21 @@
+aid: cisco-systems
+url: https://raw.githubusercontent.com/api-evangelist/cisco-systems/refs/heads/main/apis.yml
+modified: '2026-03-21'
+apis:
+  - aid: cisco-systems:cisco-api
+    name: Cisco DevNet API
+    tags:
+      - Networking
+      - Security
+      - Collaboration
+      - Infrastructure
+    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    baseURL: https://developer.cisco.com/api
+    humanURL: https://developer.cisco.com/
+    properties:
+      - url: https://developer.cisco.com/
+        type: Documentation
+      - url: openapi/cisco-systems-cisco-api-openapi.yml
+        type: OpenAPI
+    description: >-
+      Cisco DevNet provides APIs for networking, security, collaboration, and cloud infrastructure. Developers can programmatically configure and manage Cisco networking equipment, Webex services, and security tools.

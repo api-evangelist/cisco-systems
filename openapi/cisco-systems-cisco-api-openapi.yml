@@ -1,0 +1,50 @@
+openapi: 3.1.0
+info:
+  title: Cisco DevNet API
+  description: >-
+    Cisco DevNet provides APIs for networking, security, collaboration, and cloud infrastructure. Developers can programmatically configure and manage Cisco networking equipment, Webex services, and security tools.
+  version: '1.0'
+  contact:
+    name: Cisco Systems Developer Support
+    url: https://developer.cisco.com/
+externalDocs:
+  description: Documentation
+  url: https://developer.cisco.com/
+servers:
+  - url: https://developer.cisco.com/api
+    description: Production
+tags:
+  - name: Networking
+    description: Networking operations
+security:
+  - bearerAuth: []
+paths:
+  /status:
+    get:
+      operationId: getStatus
+      summary: Get API status
+      description: >-
+        Returns the current status of the API.
+      tags:
+        - Networking
+      responses:
+        '200':
+          description: Success
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  status:
+                    type: string
+                  version:
+                    type: string
+        '401':
+          description: Unauthorized
+        '429':
+          description: Too many requests
+components:
+  securitySchemes:
+    bearerAuth:
+      type: http
+      scheme: bearer
