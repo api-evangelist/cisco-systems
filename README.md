@@ -113,8 +113,8 @@ A cloud-based control plane for managing Cisco UCS, HyperFlex, and partner infra
 - [Terms of Service](https://www.cisco.com/c/en/us/about/legal/cloud-and-software/end-user-license-agreement.html)
 - [Privacy Policy](https://www.cisco.com/c/en/us/about/legal/privacy-full.html)
 - [JSON-LD Context](json-ld/cisco-systems-context.jsonld)
-- [Spectral Ruleset](spectral/cisco-systems-spectral.yml)
-- [Naftiko Capabilities](naftiko/cisco-systems-capabilities.yml)
+- [Spectral Ruleset](rules/cisco-systems-rules.yml)
+- [Naftiko Capabilities](capabilities/cisco-systems-capabilities.yml)
 
 ## Maintainers
 

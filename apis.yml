@@ -192,9 +192,9 @@ common:
   - type: JSON-LD
     url: json-ld/cisco-systems-context.jsonld
   - type: Spectral
-    url: spectral/cisco-systems-spectral.yml
+    url: rules/cisco-systems-rules.yml
   - type: Naftiko Capabilities
-    url: naftiko/cisco-systems-capabilities.yml
+    url: capabilities/cisco-systems-capabilities.yml
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
