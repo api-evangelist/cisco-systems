@@ -1,0 +1,38 @@
+capabilities:
+  - id: cisco-systems.manage-network
+    name: Manage enterprise network
+    description: >-
+      Discover, provision, and assure enterprise network infrastructure
+      across Catalyst Center, Meraki, and IOS XE devices.
+    apis:
+      - cisco-systems:catalyst-center
+      - cisco-systems:meraki
+  - id: cisco-systems.collaborate
+    name: Power collaboration workflows
+    description: >-
+      Build meetings, messaging, calling, and device-control flows on
+      the Webex platform.
+    apis:
+      - cisco-systems:webex
+  - id: cisco-systems.secure-edge
+    name: Secure network edge
+    description: >-
+      Configure firewalls, remote-access VPN, and Zero Trust services
+      across Cisco's security portfolio.
+    apis:
+      - cisco-systems:secure-firewall
+  - id: cisco-systems.observe-experience
+    name: Observe digital experience
+    description: >-
+      Monitor application performance and internet path quality through
+      AppDynamics and ThousandEyes.
+    apis:
+      - cisco-systems:thousandeyes
+      - cisco-systems:appdynamics
+  - id: cisco-systems.manage-infrastructure
+    name: Manage cloud infrastructure
+    description: >-
+      Operate UCS, HyperFlex, and integrated systems through the
+      Intersight cloud control plane.
+    apis:
+      - cisco-systems:intersight

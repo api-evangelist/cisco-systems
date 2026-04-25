@@ -1,0 +1,20 @@
+{
+  "@context": {
+    "@vocab": "https://apievangelist.com/vocab/cisco-systems/",
+    "schema": "https://schema.org/",
+    "cisco": "https://developer.cisco.com/vocab/",
+    "Organization": "schema:Organization",
+    "Product": "schema:SoftwareApplication",
+    "API": "schema:WebAPI",
+    "Domain": "cisco:ProductDomain",
+    "Region": "schema:Place",
+    "Customer": "schema:Organization",
+    "Partner": "schema:Organization",
+    "name": "schema:name",
+    "description": "schema:description",
+    "category": "schema:category",
+    "version": "schema:softwareVersion",
+    "createdAt": "schema:dateCreated",
+    "updatedAt": "schema:dateModified"
+  }
+}
