@@ -2,7 +2,7 @@ aid: cisco-systems
 name: Cisco Systems
 url: https://raw.githubusercontent.com/api-evangelist/cisco-systems/refs/heads/main/apis.yml
 created: '2026-03-21'
-modified: '2026-04-23'
+modified: '2026-05-04'
 type: Index
 access: 3rd-Party
 position: Consumer
@@ -12,19 +12,14 @@ tags:
   - Infrastructure
   - Networking
   - Security
-description: >-
-  Cisco Systems is a global technology company providing networking,
-  security, collaboration, and cloud infrastructure products. Cisco
-  exposes its programmable surface through Cisco DevNet, a single
-  developer portal that aggregates documentation, sandboxes, code
-  exchange, and learning labs across the company's hardware and software
-  portfolio. Major API domains include Catalyst Center and Meraki for
-  network management, IOS XE RESTCONF for device-level programmability,
-  Webex for collaboration, Secure Firewall and ISE for security, ThousandEyes
-  and AppDynamics for observability, and Intersight for cloud-managed
-  infrastructure. Authentication models vary by product line and include
-  OAuth 2.0, API keys, basic-auth token exchange, and HTTP signature
-  authentication.
+description: Cisco Systems is a global technology company providing networking, security, collaboration,
+  and cloud infrastructure products. Cisco exposes its programmable surface through Cisco DevNet, a single
+  developer portal that aggregates documentation, sandboxes, code exchange, and learning labs across the
+  company's hardware and software portfolio. Major API domains include Catalyst Center and Meraki for
+  network management, IOS XE RESTCONF for device-level programmability, Webex for collaboration, Secure
+  Firewall and ISE for security, ThousandEyes and AppDynamics for observability, and Intersight for cloud-managed
+  infrastructure. Authentication models vary by product line and include OAuth 2.0, API keys, basic-auth
+  token exchange, and HTTP signature authentication.
 apis:
   - aid: cisco-systems:devnet-api
     name: Cisco DevNet API Catalog
@@ -44,12 +39,10 @@ apis:
         type: API Reference
       - url: openapi/cisco-systems-cisco-api-openapi.yml
         type: OpenAPI
-    description: >-
-      Cisco DevNet is the unified developer portal for Cisco Systems
-      products, exposing APIs, SDKs, sandboxes, and learning resources
-      for networking, security, collaboration, and cloud infrastructure.
-      The DevNet catalog is the entry point for discovering and
-      authenticating against the broader Cisco API surface.
+    description: Cisco DevNet is the unified developer portal for Cisco Systems products, exposing APIs,
+      SDKs, sandboxes, and learning resources for networking, security, collaboration, and cloud infrastructure.
+      The DevNet catalog is the entry point for discovering and authenticating against the broader Cisco
+      API surface.
   - aid: cisco-systems:catalyst-center
     name: Cisco Catalyst Center
     tags:
@@ -62,10 +55,8 @@ apis:
     properties:
       - url: https://developer.cisco.com/docs/dna-center/
         type: Documentation
-    description: >-
-      Cisco Catalyst Center (formerly Cisco DNA Center) provides
-      programmable management of Cisco enterprise networks, including
-      discovery, inventory, provisioning, and assurance.
+    description: Cisco Catalyst Center (formerly Cisco DNA Center) provides programmable management of
+      Cisco enterprise networks, including discovery, inventory, provisioning, and assurance.
   - aid: cisco-systems:meraki
     name: Cisco Meraki Dashboard
     tags:
@@ -80,10 +71,8 @@ apis:
         type: Documentation
       - url: https://api.meraki.com/api/v1/openapiSpec
         type: OpenAPI
-    description: >-
-      The Meraki Dashboard API exposes Cisco's cloud-managed networking
-      hardware including switches, access points, security appliances,
-      cameras, and sensors.
+    description: The Meraki Dashboard API exposes Cisco's cloud-managed networking hardware including
+      switches, access points, security appliances, cameras, and sensors.
   - aid: cisco-systems:webex
     name: Cisco Webex Platform
     tags:
@@ -97,10 +86,8 @@ apis:
     properties:
       - url: https://developer.webex.com/docs
         type: Documentation
-    description: >-
-      The Cisco Webex platform provides REST APIs for meetings, messaging,
-      calling, devices, webhooks, and administrative operations across
-      the Webex collaboration suite.
+    description: The Cisco Webex platform provides REST APIs for meetings, messaging, calling, devices,
+      webhooks, and administrative operations across the Webex collaboration suite.
   - aid: cisco-systems:secure-firewall
     name: Cisco Secure Firewall Management Center
     tags:
@@ -112,10 +99,8 @@ apis:
     properties:
       - url: https://developer.cisco.com/docs/secure-firewall-management-center-api/
         type: Documentation
-    description: >-
-      The Cisco Secure Firewall Management Center API configures
-      ASA/FTD firewall policies, access rules, and remote-access VPN
-      gateways across managed firewall fleets.
+    description: The Cisco Secure Firewall Management Center API configures ASA/FTD firewall policies,
+      access rules, and remote-access VPN gateways across managed firewall fleets.
   - aid: cisco-systems:thousandeyes
     name: Cisco ThousandEyes API
     tags:
@@ -128,10 +113,8 @@ apis:
     properties:
       - url: https://developer.thousandeyes.com/v7/
         type: Documentation
-    description: >-
-      The Cisco ThousandEyes API provides programmatic access to digital
-      experience, internet, and cloud network monitoring data across
-      enterprise environments.
+    description: The Cisco ThousandEyes API provides programmatic access to digital experience, internet,
+      and cloud network monitoring data across enterprise environments.
   - aid: cisco-systems:appdynamics
     name: Cisco AppDynamics API
     tags:
@@ -143,10 +126,8 @@ apis:
     properties:
       - url: https://docs.appdynamics.com/appd/24.x/latest/en/extend-cisco-appdynamics
         type: Documentation
-    description: >-
-      The Cisco AppDynamics API provides REST endpoints for application
-      performance monitoring, business transaction analytics, and
-      controller administration.
+    description: The Cisco AppDynamics API provides REST endpoints for application performance monitoring,
+      business transaction analytics, and controller administration.
   - aid: cisco-systems:intersight
     name: Cisco Intersight API
     tags:
@@ -160,10 +141,8 @@ apis:
     properties:
       - url: https://intersight.com/apidocs/introduction/overview/
         type: Documentation
-    description: >-
-      The Cisco Intersight API is a cloud-based control plane for
-      managing Cisco UCS, HyperFlex, and partner infrastructure with
-      OData-flavored REST endpoints.
+    description: The Cisco Intersight API is a cloud-based control plane for managing Cisco UCS, HyperFlex,
+      and partner infrastructure with OData-flavored REST endpoints.
 common:
   - type: Website
     url: https://www.cisco.com
@@ -195,6 +174,18 @@ common:
     url: rules/cisco-systems-rules.yml
   - type: Naftiko Capabilities
     url: capabilities/cisco-systems-capabilities.yml
+  - type: Features
+    data:
+      - 'Cisco Systems: hundreds of services across Networking + Security'
+      - 'Detailed pricing: see https://www.cisco.com/c/en/us/products/index.html'
+      - 'Service: Meraki Dashboard API'
+      - 'Service: Webex API'
+      - 'Service: Catalyst SDK'
+      - 'Service: DNA Center API'
+    sources:
+      - https://www.cisco.com/c/en/us/products/index.html
+      - https://focus.finops.org/
+    updated: '2026-05-04'
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
