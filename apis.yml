@@ -30,7 +30,7 @@ apis:
       - Infrastructure
       - Networking
       - Security
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     baseURL: https://developer.cisco.com/api
     humanURL: https://developer.cisco.com/
     properties:
@@ -51,7 +51,7 @@ apis:
       - DNA Center
       - Network Management
       - SDN
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://developer.cisco.com/docs/dna-center/
     properties:
       - url: https://developer.cisco.com/docs/dna-center/
@@ -65,7 +65,7 @@ apis:
       - Cloud Managed
       - Dashboard
       - Wireless
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     baseURL: https://api.meraki.com/api/v1
     humanURL: https://developer.cisco.com/meraki/
     properties:
@@ -83,7 +83,7 @@ apis:
       - Meetings
       - Messaging
       - Webex
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     baseURL: https://webexapis.com/v1
     humanURL: https://developer.webex.com/
     properties:
@@ -98,7 +98,7 @@ apis:
       - Firewall
       - FTD
       - Security
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://developer.cisco.com/docs/secure-firewall-management-center-api/
     properties:
       - url: https://developer.cisco.com/docs/secure-firewall-management-center-api/
@@ -112,7 +112,7 @@ apis:
       - Digital Experience
       - Network Monitoring
       - Observability
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     baseURL: https://api.thousandeyes.com/v7
     humanURL: https://developer.thousandeyes.com/
     properties:
@@ -127,7 +127,7 @@ apis:
       - APM
       - Application Monitoring
       - Observability
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://docs.appdynamics.com/appd/24.x/latest/en/extend-cisco-appdynamics
     properties:
       - url: https://docs.appdynamics.com/appd/24.x/latest/en/extend-cisco-appdynamics
@@ -142,7 +142,7 @@ apis:
       - HyperFlex
       - Infrastructure
       - UCS
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     baseURL: https://intersight.com/api/v1
     humanURL: https://intersight.com/apidocs/
     properties:
