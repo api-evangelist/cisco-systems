@@ -152,6 +152,8 @@ apis:
       The Cisco Intersight API is a cloud-based control plane for managing Cisco UCS, HyperFlex, and partner
       infrastructure with OData-flavored REST endpoints.
 common:
+  - type: AgenticAccess
+    url: agentic-access/cisco-systems-agentic-access.yml
   - type: VulnerabilityDisclosure
     url: security/cisco-systems-vulnerability-disclosure.yml
   - type: DomainSecurity
