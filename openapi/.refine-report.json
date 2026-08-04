@@ -1,0 +1,14 @@
+{
+  "provider": "cisco-systems",
+  "sources": [
+    "cisco-systems-networking-api-openapi.yml"
+  ],
+  "outputs": [
+    "cisco-systems-networking-api-openapi.yml"
+  ],
+  "archived": [],
+  "errors": [],
+  "warnings": [],
+  "notes": [],
+  "skipped": []
+}
